@@ -27,6 +27,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import {showFreshchatConversations} from './freshchat_utils'
+
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -45,6 +47,9 @@ const App: () => Node = () => {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
         </View>
+        <View style={{marginTop: 4 , padding: 10}} >
+            <Button onPress={showFreshchatConversations} title="showConversations" color="#841584" accessibilityLabel="Learn more about this purple button"/>
+          </View>
       </ScrollView>
     </SafeAreaView>
   );
