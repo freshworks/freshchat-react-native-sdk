@@ -8,11 +8,13 @@ import {
     FreshchatNotificationConfig
 } from 'react-native-freshchat-sdk';
 
-appId = 'c69641e9-8a85-4da1-858e-77169b0c76a7';
-appKey = '23d7240c-0176-4de1-acc4-d63c534b59be';
+appId = '{{your-app-id}}';
+appKey = '{{your-app-key}}';
+domain = '{{domain}}';
 
 export const freshchatInit = () => {
     var freshchatConfig = new FreshchatConfig(appId, appKey);
+    freshchatConfig.domain = domain;
     Freshchat.init(freshchatConfig);
 }
 
