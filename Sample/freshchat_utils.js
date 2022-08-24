@@ -10,7 +10,7 @@ import {
 
 appId = '{{your-app-id}}';
 appKey = '{{your-app-key}}';
-domain = '{{your-app-domain}}';
+domain = '{{domain}}';
 
 export const freshchatInit = () => {
     var freshchatConfig = new FreshchatConfig(appId, appKey);
@@ -21,3 +21,15 @@ export const freshchatInit = () => {
 export const showFreshchatConversations = () => {
      Freshchat.showConversations();
 };
+
+export const saveDeviceTokenInFreshchat = (token) => {
+    Freshchat.setPushRegistrationToken(token);
+}
+
+export const isFreshchatNotification = (freshchatPushPayload, callback) => {
+    return Freshchat.isFreshchatNotification(freshchatPushPayload, callback);
+}
+
+export const handleFreshchatPushNotifications = (freshchatPushPayload) => {
+    Freshchat.handlePushNotification(freshchatPushPayload);
+}
