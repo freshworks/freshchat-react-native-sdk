@@ -10,7 +10,6 @@ export const saveFirebaseDeviceTokenInFreshchat = async () =>{
 	console.log("Saving Device token");
 	await messaging().registerDeviceForRemoteMessages();
 	const token = await messaging().getToken();
-	console.log(token);
 	saveDeviceTokenInFreshchat(token);
 };
 
