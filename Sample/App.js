@@ -27,13 +27,25 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import {showFreshchatConversations} from './freshchat_utils'
+import {
+  showFreshchatConversations,
+  setUserProperties,
+  setCustomUserProperties
+} from './freshchat_utils'
 
 const App: () => Node = () => {
 
   return (
     <SafeAreaView>
-      <Button onPress={showFreshchatConversations} title="showConversations" color="#841584" accessibilityLabel="Learn more about this purple button"/>
+    <View style={{marginTop: 4 , padding: 10}} >
+      <Button onPress={setUserProperties} title="Set Custom User Details" color="#841584" accessibilityLabel="Learn more about this purple button"/>
+    </View>
+    <View style={{marginTop: 4 , padding: 10}} >
+      <Button onPress={setCustomUserProperties} title="Set Custom User Properties" color="#841584" accessibilityLabel="Learn more about this purple button"/>
+    </View>
+    <View style={{marginTop: 4 , padding: 10}} >
+      <Button onPress={showFreshchatConversations} title="Show Conversations" color="#841584" accessibilityLabel="Learn more about this purple button"/>
+    </View>
     </SafeAreaView>
   );
 };

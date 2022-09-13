@@ -22,6 +22,31 @@ export const showFreshchatConversations = () => {
      Freshchat.showConversations();
 };
 
+export const setUserProperties = (token) => {
+    var freshchatUser = new FreshchatUser();
+    freshchatUser.firstName = "John";
+    freshchatUser.lastName = "Doe";
+    freshchatUser.email = "johndoe@dead.man";
+    freshchatUser.phoneCountryCode = "+91";
+    freshchatUser.phone = "1234234123";
+
+    console.log(freshchatUser);
+
+    Freshchat.setUser(freshchatUser, (error) => {
+        console.log(error);
+    });
+}
+
+export const setCustomUserProperties = (token) => {
+    var userPropertiesJson = {
+        "test": "From Sample App"
+    };
+    
+    Freshchat.setUserProperties(userPropertiesJson, (error) => {
+        console.log(error);
+    })
+}
+
 export const saveDeviceTokenInFreshchat = (token) => {
     Freshchat.setPushRegistrationToken(token);
 }
