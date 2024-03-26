@@ -5,6 +5,8 @@
 #import <React/RCTRootView.h>
 
 #import <React/RCTAppSetupUtils.h>
+#import "FreshchatSDK/FreshchatSDK.h"
+#import <UserNotifications/UserNotifications.h>
 
 #if RCT_NEW_ARCH_ENABLED
 #import <React/CoreModulesPlugins.h>
@@ -44,12 +46,16 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 #endif
 
   NSDictionary *initProps = [self prepareInitialProps];
-  UIView *rootView = RCTAppSetupDefaultRootView(bridge, @"Sample", initProps);
+  UIView *rootView = RCTAppSetupDefaultRootView(bridge, @"RNSample", initProps);
 
   if (@available(iOS 13.0, *)) {
     rootView.backgroundColor = [UIColor systemBackgroundColor];
   } else {
     rootView.backgroundColor = [UIColor whiteColor];
+  }
+  
+  if ([[Freshchat sharedInstance]isFreshchatNotification:launchOptions]) {
+        [[Freshchat sharedInstance]handleRemoteNotification:launchOptions andAppstate:application.applicationState];
   }
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -57,6 +63,26 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
+  
+  //Permission block, can be omited if its implemented on React Layer
+  UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+  center.delegate = self;
+  [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge) completionHandler:^(BOOL granted, NSError * _Nullable error)
+   {
+    if( !error )
+    {
+      dispatch_async(dispatch_get_main_queue(), ^{
+        [[UIApplication sharedApplication] registerForRemoteNotifications];
+      });
+    }
+    else
+    {
+      NSLog( @"Push registration FAILED" );
+      NSLog( @"ERROR: %@ - %@", error.localizedFailureReason, error.localizedDescription );
+      NSLog( @"SUGGESTIONS: %@ - %@", error.localizedRecoveryOptions, error.localizedRecoverySuggestion );
+    }
+  }];
+  
   return YES;
 }
 
@@ -129,5 +155,38 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 }
 
 #endif
+
+-(void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    NSLog(@"error here : %@", error);//not called
+}
+
+//If handling of APNS token on React Native layer then its not required
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+  
+  [[Freshchat sharedInstance] setPushRegistrationToken:deviceToken];
+}
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center
+       willPresentNotification:(UNNotification *)notification withCompletionHandler:(nonnull void (^)(UNNotificationPresentationOptions))completionHandler{
+  
+  if ([[Freshchat sharedInstance]isFreshchatNotification:notification.request.content.userInfo]) {
+          [[Freshchat sharedInstance]handleRemoteNotification:notification.request.content.userInfo andAppstate:[[UIApplication sharedApplication] applicationState]];
+         completionHandler( UNAuthorizationOptionSound );
+      } else {
+          completionHandler( UNAuthorizationOptionAlert | UNAuthorizationOptionSound | UNAuthorizationOptionBadge );
+      }
+}
+
+/* For devices running on ios 10 and above */
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center
+didReceiveNotificationResponse:(UNNotificationResponse *)response
+         withCompletionHandler:(void (^)(void))completionHandler {
+    if ([[Freshchat sharedInstance]isFreshchatNotification:response.notification.request.content.userInfo]) {
+        [[Freshchat sharedInstance]handleRemoteNotification:response.notification.request.content.userInfo andAppstate:[[UIApplication sharedApplication] applicationState]];
+        completionHandler();
+    } else {
+        completionHandler();
+    }
+}
 
 @end
