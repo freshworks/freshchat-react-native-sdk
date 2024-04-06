@@ -15,6 +15,7 @@ domain = '{{domain}}';
 export const freshchatInit = () => {
     var freshchatConfig = new FreshchatConfig(appId, appKey);
     freshchatConfig.domain = domain;
+    freshchatConfig.themeName = "MyCustomFCTheme.plist";
     Freshchat.init(freshchatConfig);
 }
 
