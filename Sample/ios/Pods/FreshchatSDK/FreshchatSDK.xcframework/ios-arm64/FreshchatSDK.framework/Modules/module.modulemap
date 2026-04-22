@@ -1,0 +1,11 @@
+framework module FreshchatSDK {
+  umbrella header "FreshchatSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module FreshchatSDK.Swift {
+  header "FreshchatSDK-Swift.h"
+  requires objc
+}

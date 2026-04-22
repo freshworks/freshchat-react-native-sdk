@@ -514,16 +514,19 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PKUQ4ZWJH3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "React Sample";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.company.productName;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshdesk.example.hotlineios;
 				PRODUCT_NAME = RNSample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Hotline Demo Dev Profile";
@@ -546,10 +549,13 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PKUQ4ZWJH3;
 				INFOPLIST_FILE = RNSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "React Sample";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

@@ -1,0 +1,6 @@
+module Pods_RNSample {
+  umbrella header "Pods-RNSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1750 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FreshchatSDK",
+    "printedName": "FreshchatSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Country",
+        "printedName": "Country",
+        "declKind": "Struct",
+        "usr": "s:12FreshchatSDK7CountryV",
+        "mangledName": "$s12FreshchatSDK7CountryV",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreAudio",
+        "printedName": "CoreAudio",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FreshchatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/Multiselect\/FCMultiSelectCarouselsViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 261,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/Multiselect\/FCMultiSelectCarouselsViewModel.swift",
+      "kind": "Dictionary",
+      "offset": 316,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCReplyFlowLayout.swift",
+      "kind": "FloatLiteral",
+      "offset": 401,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCReplyFlowLayout.swift",
+      "kind": "FloatLiteral",
+      "offset": 570,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCReplyFlowLayout.swift",
+      "kind": "FloatLiteral",
+      "offset": 4120,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/ViewModel\/FCDropDownViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 248,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/ViewModel\/FCDropDownViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 531,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/ViewModel\/FCDropDownViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 592,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/BotActionManager\/FCBotActionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 159,
+      "length": 54,
+      "value": "\"com.freshworks.freshchat_bot_action_trigger_function\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/BotActionManager\/FCBotActionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 13,
+      "value": "\"HIDE_WIDGET\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/BotActionManager\/FCBotActionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 17,
+      "value": "\"MINIMIZE_WIDGET\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/BotActionManager\/FCBotActionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 26,
+      "value": "\"SEND_AS_CUSTOMER_MESSAGE\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/BotActionManager\/FCBotActionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 15,
+      "value": "\"WIDGET_OPENED\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/BotActionManager\/FCBotActionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 10,
+      "value": "\"OPEN_URL\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/BotActionManager\/FCBotActionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 21,
+      "value": "\"TRIGGER_JS_FUNCTION\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/BotActionManager\/FCBotActionManager.swift",
+      "kind": "Array",
+      "offset": 1102,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCUtilMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 11,
+      "value": "\"user.name\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCUtilMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 16,
+      "value": "\"user.firstName\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCUtilMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 15,
+      "value": "\"user.lastName\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCUtilMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 12,
+      "value": "\"user.email\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCUtilMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 12,
+      "value": "\"user.phone\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCUtilMethods.swift",
+      "kind": "Dictionary",
+      "offset": 3496,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Cell\/FCDropDownTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 24,
+      "value": "\"DropDownUnselectedIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Cell\/FCDropDownTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 22,
+      "value": "\"DropDownSelectedIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FeedbackOpinionCell\/FCFeedbackOpinionTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 17,
+      "value": "\"OpinionPollIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2993,
+      "length": 21,
+      "value": "\"button_multi_select\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3060,
+      "length": 9,
+      "value": "\"buttons\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3117,
+      "length": 10,
+      "value": "\"callback\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3175,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3221,
+      "length": 2,
+      "value": "51"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3260,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3303,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3360,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3408,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3540,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3681,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3736,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3767,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 3808,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3842,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3881,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3921,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3960,
+      "length": 2,
+      "value": "54"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 3997,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 4025,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4060,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/AccessibilityConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 17,
+      "value": "\"countryCodeView\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/AccessibilityConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 28,
+      "value": "\"fcStarRatingCollectionView\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/FCDropDownHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 434,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 24,
+      "value": "\"dropdown_choose_select\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 33,
+      "value": "\"dropdown_no_search_results_text\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 30,
+      "value": "\"dropdown_choose_multi_select\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 34,
+      "value": "\"dropdown_search_placeholder_text\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 30,
+      "value": "\"multiselect_select_all_title\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 32,
+      "value": "\"multiselect_deselect_all_title\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 590,
+      "length": 25,
+      "value": "\"dropdown_selected_label\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 18,
+      "value": "\"send_button_text\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 22,
+      "value": "\"button_choose_select\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Constants\/FClocalisationConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 28,
+      "value": "\"button_choose_multi_select\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyRedirectionCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 507,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/PlaceHolder\/FCPlaceholderValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 126,
+      "length": 51,
+      "value": "\"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,15}\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/PlaceHolder\/FCPlaceholderValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 23,
+      "value": "\"^\\+?(-?[0-9]){9,15}$\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/PlaceHolder\/FCPlaceholderValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 32,
+      "value": "\"(\\+?|-?)[0-9]{1,140}+\\.?\\d*\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/PlaceHolder\/FCPlaceholderValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/PlaceHolder\/FCPlaceholderValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 7,
+      "value": "\"phone\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/PlaceHolder\/FCPlaceholderValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 22,
+      "value": "\"phoneWithCountryCode\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/PlaceHolder\/FCPlaceholderValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 5,
+      "value": "\"otp\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/PlaceHolder\/FCPlaceholderValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 8,
+      "value": "\"number\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/PlaceHolder\/FCPlaceholderValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 10,
+      "value": "\"feedback\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/Multiselect\/FCMultiselectBottomSheet.swift",
+      "kind": "BooleanLiteral",
+      "offset": 918,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/Multiselect\/FCMultiselectBottomSheet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 976,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/DatePicker\/FCDatePickerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 348,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/DatePicker\/FCDatePickerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/View\/FCDropDownPromptView.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 33,
+      "value": "\"ConversationDetail.DropDownIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/View\/FCDropDownPromptView.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 8,
+      "value": "\"000000\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/OTP\/OBJCResendOTPView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 948,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/OTP\/OBJCResendOTPView.swift",
+      "kind": "StringLiteral",
+      "offset": 990,
+      "length": 63,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/OTP\/OBJCResendOTPView.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/OTP\/OBJCResendOTPView.swift",
+      "kind": "StringLiteral",
+      "offset": 1025,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/OTP\/OBJCResendOTPView.swift",
+      "kind": "StringLiteral",
+      "offset": 1052,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/OTP\/OBJCResendOTPView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 896,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 641,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 698,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1544,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1592,
+      "length": 4,
+      "value": "44.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1626,
+      "length": 4,
+      "value": "44.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1656,
+      "length": 4,
+      "value": "46.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1691,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1723,
+      "length": 4,
+      "value": "56.5"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1758,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1792,
+      "length": 4,
+      "value": "36.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1835,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1871,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1911,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2120,
+      "length": 23,
+      "value": "\"DropDownTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2167,
+      "length": 37,
+      "value": "\"SearchBar.SearchBarStyle.searchIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2227,
+      "length": 36,
+      "value": "\"SearchBar.SearchBarStyle.clearIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2295,
+      "length": 23,
+      "value": "\"DropDownCancelledIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/Controller\/FCDropdownViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35639,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackRating.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 31,
+      "value": "\"FCFeedbackRatingTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackRating.swift",
+      "kind": "IntegerLiteral",
+      "offset": 702,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackRating.swift",
+      "kind": "StringLiteral",
+      "offset": 865,
+      "length": 18,
+      "value": "\"RatingUnstarIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackRating.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 16,
+      "value": "\"RatingStarIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackRating.swift",
+      "kind": "FloatLiteral",
+      "offset": 948,
+      "length": 5,
+      "value": "350.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackRating.swift",
+      "kind": "FloatLiteral",
+      "offset": 982,
+      "length": 4,
+      "value": "36.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackRating.swift",
+      "kind": "FloatLiteral",
+      "offset": 1016,
+      "length": 4,
+      "value": "36.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackRating.swift",
+      "kind": "FloatLiteral",
+      "offset": 1053,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackRating.swift",
+      "kind": "FloatLiteral",
+      "offset": 1083,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackOpinionPoll.swift",
+      "kind": "FloatLiteral",
+      "offset": 762,
+      "length": 5,
+      "value": "540.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackOpinionPoll.swift",
+      "kind": "IntegerLiteral",
+      "offset": 797,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackOpinionPoll.swift",
+      "kind": "IntegerLiteral",
+      "offset": 828,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Feedback\/FCFeedbackOpinionPoll.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 32,
+      "value": "\"FCFeedbackOpinionTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCReplyCollectionCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 540,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Controllers\/SingleMultiSelectDropDown\/ViewModel\/FCTableSearchViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryCodeHelper.swift",
+      "kind": "Array",
+      "offset": 284,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 4,
+      "value": "\"+1\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 15,
+      "value": "\"United States\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 264,
+      "length": 4,
+      "value": "\"US\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 14,
+      "value": "\"CountryCodes\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 11,
+      "value": "\"dial_code\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 13,
+      "value": "\"FCResources\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 9,
+      "value": "\"\/Flags\/\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 873,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 929,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 982,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1038,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1091,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1166,
+      "length": 20,
+      "value": "\"country_list_title\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 33,
+      "value": "\"country_list_search_placeholder\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1314,
+      "length": 33,
+      "value": "\"country_list_close_button_title\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1392,
+      "length": 31,
+      "value": "\"country_list_no_search_result\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1512,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1568,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1641,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1681,
+      "length": 12,
+      "value": "\"Resend OTP\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/CountryPickerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 20,
+      "value": "\"resend_otp_subtext\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/Views\/CountryPickerController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1220,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/Views\/CountryPickerController.swift",
+      "kind": "Array",
+      "offset": 1269,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/CountryPicker\/Views\/CountryPickerController.swift",
+      "kind": "Array",
+      "offset": 1306,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 132,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 16,
+      "value": "\"OpenFAQArticle\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 11,
+      "value": "\"sleepTime\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 563,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 33,
+      "value": "\"QuickReplyButtonRedirectionIcon\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "FloatLiteral",
+      "offset": 733,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "FloatLiteral",
+      "offset": 761,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "FloatLiteral",
+      "offset": 789,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "FloatLiteral",
+      "offset": 840,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "FloatLiteral",
+      "offset": 892,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "FloatLiteral",
+      "offset": 919,
+      "length": 5,
+      "value": "540.0"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 960,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 999,
+      "length": 3,
+      "value": "750"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1040,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1078,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/Utilities\/FCConstantsData.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 26,
+      "value": "\"isEligibleForMultiSelect\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonView.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 11,
+      "value": "\"replyCell\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonView.swift",
+      "kind": "StringLiteral",
+      "offset": 976,
+      "length": 17,
+      "value": "\"redirectionCell\""
+    },
+    {
+      "filePath": "\/Users\/harkumar\/Documents\/Hotline\/freshchat_iOS_SDK_dev\/unity_ios_sdk_dev\/HotlineSDK\/HotlineSDK\/View\/ReplyCell\/FCQuickReplyButtonView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1111,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

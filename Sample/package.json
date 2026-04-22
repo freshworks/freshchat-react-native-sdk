@@ -14,7 +14,7 @@
     "@react-native-firebase/messaging": "^15.2.0",
     "react": "18.0.0",
     "react-native": "0.69.3",
-    "react-native-freshchat-sdk": "^4.5.0"
+    "react-native-freshchat-sdk": "^4.8.0-canary"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
